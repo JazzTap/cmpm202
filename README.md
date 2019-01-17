@@ -1,8 +1,19 @@
 # Wave Function Collapse for Networks
 
-This is code forked from the [Oisin](https://github.com/mewo2/oisin) implementation of WFC.
+This is code forked from the [Oisin](https://github.com/mewo2/oisin) implementation of WaveFunctionCollapse, which elegantly supports non-grid topologies.
 
+![](out/splash.png)
 
-If you do make something interesting with this code, please do still let me know! I'm sorry that I can't provide any support, but I am still genuinely interested in seeing creative applications of the code.
+In other words, we can color graphs with constraints. However, some take an exorbitant length of time to solve with this algorithm.
 
-[wfc]: https://github.com/mxgmn/WaveFunctionCollapse
+In our lab notebook, we've found a few good choices (low-degree nodes!) and a few bad choices (directed edges!) tentatively.
+
+### Balanced Tree A
+
+![](out/a0.png) ![](out/a1.png)
+
+### Balanced Tree B
+
+![](out/b0.png) ![](out/b1.png)
+
+Please feel welcome to remix.
